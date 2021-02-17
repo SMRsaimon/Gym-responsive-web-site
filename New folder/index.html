@@ -19,7 +19,7 @@
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand" href="#"><img class="logo-image" src="img/icon3.png" alt="" /><span>FITNESS</span></a>
+                <a class="navbar-brand" href="#"><img class="logo-image" src="img/icon3.png" alt="" /><span class="text-danger">FITNESS</span></a>
                 <!-- toggle Button start  -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
@@ -178,66 +178,130 @@
             </div>
             <div class="row d-flex justify-content-center mb-5">
                 <div class="col-8">
-                    <button onclick="triggerButton('ans1')" id="question1" class="btn mb-3" type="button">
-							Q1. Your First Question here click to know ansawere
-						</button>
-                    <div>
-                        <p id="ans1" class="d-none">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima pariatur, sunt quae quas excepturi atque sequi corrupti at eveniet maxime.
-                        </p>
-                    </div>
-                </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										Q1. &nbsp; Your 1st Question's ansawere here Click and me
+									</button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cum quos reiciendis, possimus illum ex quidem,
+											itaque a doloribus recusandae deserunt consequuntur quibusdam hic nihil doloremque consequatur eum libero
+											quia.</strong
+										>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingTwo">
+									<button
+										class="accordion-button collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#collapseTwo"
+										aria-expanded="false"
+										aria-controls="collapseTwo"
+									>
+										Q2. &nbsp; Your 2nd Question's ansawere here Click and me
+									</button>
+								</h2>
+								<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<strong
+											>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cum quos reiciendis, possimus illum ex quidem,
+											itaque a doloribus recusandae deserunt consequuntur quibusdam hic nihil doloremque consequatur eum libero
+											quia.</strong
+										>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingThree">
+									<button
+										class="accordion-button collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#collapseThree"
+										aria-expanded="false"
+										aria-controls="collapseThree"
+									>
+										Q3. &nbsp; Your 3rd Question's ansawere here Click and me
+									</button>
+								</h2>
+								<div
+									id="collapseThree"
+									class="accordion-collapse collapse"
+									aria-labelledby="headingThree"
+									data-bs-parent="#accordionExample"
+								>
+									<div class="accordion-body">
+										<strong
+											>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cum quos reiciendis, possimus illum ex quidem,
+											itaque a doloribus recusandae deserunt consequuntur quibusdam hic nihil doloremque consequatur eum libero
+											quia.</strong
+										>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingFour">
+									<button
+										class="accordion-button collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#collapseFour"
+										aria-expanded="false"
+										aria-controls="collapseThree"
+									>
+										Q4. &nbsp; Your 4th Question's ansawere here Click and me
+									</button>
+								</h2>
+								<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<strong
+											>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cum quos reiciendis, possimus illum ex quidem,
+											itaque a doloribus recusandae deserunt consequuntur quibusdam hic nihil doloremque consequatur eum libero
+											quia.</strong
+										>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingFive">
+									<button
+										class="accordion-button collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#collapseFive"
+										aria-expanded="false"
+										aria-controls="collapseThree"
+									>
+										Q5. &nbsp; Your 5th Question's ansawere here Click and me
+									</button>
+								</h2>
+								<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<strong
+											>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cum quos reiciendis, possimus illum ex quidem,
+											itaque a doloribus recusandae deserunt consequuntur quibusdam hic nihil doloremque consequatur eum libero
+											quia.</strong
+										>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-                <div class="col-8">
-                    <button onclick="triggerButton('ans2')" id="question1" class="btn mb-3" type="button">
-							Q2. Your Second Question here click to know ansawere
-						</button>
-                    <div>
-                        <p id="ans2" class="d-none">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima pariatur, sunt quae quas excepturi atque sequi corrupti at eveniet maxime.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-8">
-                    <button onclick="triggerButton('ans3')" id="question1" class="btn mb-3" type="button">
-							Q3. Your Third Question here click to know ansawere
-						</button>
-                    <div>
-                        <p id="ans3" class="d-none">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima pariatur, sunt quae quas excepturi atque sequi corrupti at eveniet maxime.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-8">
-                    <button onclick="triggerButton('ans4')" id="question1" class="btn mb-3" type="button">
-							Q4. Your Fourth Question here click to know ansawere
-						</button>
-                    <div>
-                        <p id="ans4" class="d-none">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima pariatur, sunt quae quas excepturi atque sequi corrupti at eveniet maxime.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-8">
-                    <button onclick="triggerButton('ans5')" id="question1" class="btn mb-3" type="button">
-							Q5. Your Fifth Question here click to know ansawere
-						</button>
-                    <div>
-                        <p id="ans5" class="d-none">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima pariatur, sunt quae quas excepturi atque sequi corrupti at eveniet maxime.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+		<!-- frequently ask quastion stop -->
 
-    <!-- frequently ask quastion stop -->
-
-    <!-- bootstrap js CDN  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- main js file -->
-    <script src="app.js"></script>
-</body>
-
+		<!-- bootstrap js CDN  -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+		<!-- main js file -->
+		<script src="app.js"></script>
+	</body>
 </html>
