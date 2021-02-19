@@ -295,3 +295,21 @@
         border-radius: 50%;
         background-color: rgba(5, 5, 5, 0.151);
     }
+    
+    @media(max-width: 768px) {
+        .customOrderTwo {
+            order: 1;
+        }
+        .customOrderOne {
+            order: 2;
+        }
+    }
+    
+    .product-order-details {
+        padding: 2.8rem 2rem;
+    }
+    
+    .product-order-details p {
+        color: black;
+        font-weight: 600;
+    }
