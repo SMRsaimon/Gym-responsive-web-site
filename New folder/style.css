@@ -217,7 +217,7 @@
         bottom: 0;
         right: 0;
         left: 0;
-        background-color: rgba(252, 9, 9, 1);
+        background-color: rgb(245, 57, 57);
         z-index: -111111111111111;
         background-attachment: fixed;
     }
@@ -247,26 +247,22 @@
         flex-wrap: wrap;
         justify-content: center;
         background-color: rgb(255, 255, 255);
-        width: 100%;
     }
     
     .small-image-container img {
         width: 151px;
         height: 108px;
+        padding: 1rem;
     }
     
-    .small-image-container a {
-        padding: 3rem 1.6rem;
-    }
-    
-    .small-image-container a:hover {
-        background-color: rgb(250, 7, 7);
+    .active {
+        background-color: #ca0808ba;
     }
     
     .details {
         height: auto;
         padding: 2rem 0rem;
-        background-color: red;
+        background-color: #ca0808ba;
     }
     /* rule one  */
     
@@ -313,3 +309,16 @@
         color: black;
         font-weight: 600;
     }
+    /* three card  */
+    
+    .card-custom-main-wrapper img {
+        width: 150px;
+        height: 150px;
+        display: block;
+        margin: auto
+    }
+    
+    .card-custom-main-wrapper h4 {
+        color: black;
+    }
+    /* contract session  */

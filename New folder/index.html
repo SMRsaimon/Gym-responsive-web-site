@@ -271,26 +271,39 @@
         <div class="container-fluid mb-5 pb-5">
             <div class="row">
                 <div class="small-image-container col-12 d-flex justify-content-center bg-light">
-                    <a id="image1" href="#"> <img src="img/product-resize/product1.png" alt="" /></a>
-                    <a id="image2" href="#"> <img src="img/product-resize/product2.png" alt="" /></a>
-                    <a id=image3 href="#"> <img src="img/product-resize/product3.png" alt="" /></a>
-                    <a id=image4 href="#"> <img src="img/product-resize/product4.png" alt="" /></a>
-                    <a id=image5 href="#"> <img src="img/product-resize/product5.png" alt="" /></a>
-                    <a id=image6 href="#"> <img src="img/product-resize/product6.png" alt="" /></a>
+                    <img class="active" onclick="changeImage(this, 'leftPera1','rightPera1')" src="img/product-resize/product1.png" alt="" />
+                    <img onclick="changeImage(this, 'leftPera2','rightPera2')" src="img/product-resize/product2.png" alt="" />
+                    <img onclick="changeImage(this, 'leftPera3','rightPera3' )" src="img/product-resize/product3.png" alt="" />
+                    <img onclick="changeImage(this, 'leftPera4','rightPera4')" src="img/product-resize/product4.png" alt="" />
+                    <img onclick="changeImage(this,'leftPera5','rightPera5')" src="img/product-resize/product5.png" alt="" />
+                    <img onclick="changeImage(this,'leftPera6','rightPera6')" src="img/product-resize/product6.png" alt="" />
                 </div>
-                <div class="col-12 details d-flex justify-content-center">
+                <div class="col-12 details d-flex justify-content-center ">
                     <div class="col-4 d-flex justify-content-end align-items-center ">
-                        <p class="text-align-right">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dolor voluptas. Quas quasi amet facere! Est, quae modi? Nihil, consequuntur!
+                        <p id="leftPera" class="text-end p-5">
+                            Image Text for One
                         </p>
+                        <p id="leftPera1" class="d-none"> Image Text for one </p>
+                        <p id="leftPera2" class="d-none">Image text for Two </p>
+                        <p id="leftPera3" class="d-none">Lorem ipsum dolor sit amet.3</p>
+                        <p id="leftPera4" class="d-none">Lorem ipsum dolor sit amet.4</p>
+                        <p id="leftPera5" class="d-none">Lorem ipsum dolor sit amet.5</p>
+                        <p id="leftPera6" class="d-none">Lorem ipsum dolor sit amet.6</p>
+
                     </div>
                     <div class="col-4 d-flex justify-content-center align-items-center">
-                        <img class="w-75" src="img/product-resize/product1.png" alt="" />
+                        <img id="bigImage" class="w-75" src="img/product-resize/product1.png" alt="" />
                     </div>
                     <div class="col-4 col-4 d-flex justify-content-center align-items-center">
-                        <p class="">
+                        <p id="rightPera" class="p-5 text-start">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dolor voluptas. Quas quasi amet facere! Est, quae modi? Nihil, consequuntur!
                         </p>
+                        <p id="rightPera1" class="d-none"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dolor voluptas. Quas quasi amet facere! Est, quae modi? Nihil, consequuntur!</p>
+                        <p id="rightPera2" class="d-none">Lorem ipsum dolor sit amet.2</p>
+                        <p id="rightPera3" class="d-none">Lorem ipsum dolor sit amet.3</p>
+                        <p id="rightPera4" class="d-none">Lorem ipsum dolor sit amet.4</p>
+                        <p id="rightPera5" class="d-none">Lorem ipsum dolor sit amet.5</p>
+                        <p id="rightPera6" class="d-none">Lorem ipsum dolor sit amet.6</p>
                     </div>
                 </div>
             </div>
@@ -430,7 +443,63 @@
 			</div>
 		</section>
 
-		<!-- frequently ask quastion stop -->
+    		<!-- frequently ask quastion stop -->
+
+
+<!-- three step section start  -->
+<section>
+    <div class="container">
+        <div class="row  p-5">
+            <div class="col-md-6 text-center m-auto">
+                <h1 class="text-uppercase">3 step process to </h1>
+             <h1 class="text-uppercase text-danger"> get standerd</h1>       
+            </div>
+        </div>
+ <div class="row row-cols-1 row-cols-md-3 g-4 card-custom-main-wrapper">
+  <div class="col">
+    <div class="card border-0">
+      <img src="img/icon3.png" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h4 class="card-title">STEP <span class="text-danger"> ONE</span></h4>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card border-0">
+      <img src="img/icon2.png" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h4 class="card-title">STEP <span class="text-danger"> TWO</span></h4>
+        <p  class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card border-0">
+      <img src="img/icon1.png" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h4  class="card-title">STEP <span class="text-danger"> THREE</span> </h4>
+        <p class="card-text">
+            repudiandae, ducimus expedita laboriosam ex quaerat porro quasi, eos placeat eveniet eius repellendus tempora 
+           </p>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+       
+    </div>
+</section>
+
+
+<!-- three step section End   -->
+
+<section>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsa veritatis doloribus blanditiis dolores repudiandae, ducimus expedita laboriosam ex quaerat porro quasi, eos placeat eveniet eius repellendus tempora illum molestias excepturi? Aliquid quia similique in nostrum et quam corrupti commodi! Atque id laboriosam iste unde fugiat et, temporibus dolorum! Exercitationem?</p>
+</section>
+
+
+
 
 
 		<!-- bootstrap js CDN  -->

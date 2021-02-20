@@ -1,16 +1,21 @@
-// const triggerButton = (id) => {
-//     const questionOne = document.getElementById(id);
+// chamge images
 
-//     setTimeout(() => {
-//         questionOne.classList.toggle('d-none');
-//     }, 500);
-// };
+// set Iteam
+const leftPera = document.getElementById('leftPera');
+const rightPera = document.getElementById('rightPera');
 
-let number = 10;
+function changeImage(event, img1, img2) {
+    const smallImages = document.querySelector('.small-image-container').children;
+    document.getElementById('bigImage').src = event.src;
 
-let fact = 1;
+    for (let i = 0; i < smallImages.length; i++) {
+        smallImages[i].classList.remove('active');
+    }
 
-for (let i = 0; i < number.length; i++) {
-    let element = number[i];
-    console.log(element);
+    event.classList.add('active');
+
+    const leftPeraText = document.getElementById(img1).innerText;
+    const rightPeraText = document.getElementById(img2).innerText;
+    leftPera.innerText = leftPeraText;
+    rightPera.innerText = rightPeraText;
 }
